@@ -18,7 +18,7 @@ public class PlayerState : MonoBehaviour
     {
         { new IngredientType[] {IngredientType.WyvernHorn, IngredientType.MoonmothScales, IngredientType.FiveLeafClover}, PotionType.Flying },
         { new IngredientType[] {IngredientType.EverlilyRoot, IngredientType.MoonmothScales, IngredientType.CatspiderVenom}, PotionType.Invisibility },
-        { new IngredientType[] {IngredientType.EverlilyRoot, IngredientType.WyvernHorn, IngredientType.}, PotionType.Strength },
+       
     };
 
     private void Awake()
