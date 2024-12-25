@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7468f060f8e93547a8609e6e69d75c1, type: 3}
-  m_Name: Five Leaf Clover
+  m_Script: {fileID: 11500000, guid: cd1c10407dd4ebf45b5a15f478cebab2, type: 3}
+  m_Name: C4
   m_EditorClassIdentifier: 
-  Ingredient: 5
-  Cost: 1
-  Potency: 1
-  PotionColor: {r: 0.21960786, g: 0.6784314, b: 0.43529415, a: 0}
+  Description: "Hi! I look tired? Yeah, haha\u2026I\u2019ve always had a hard time
+    falling asleep, but it\u2019s gotten really bad lately. Can you help?"
+  Solution: 07000000
+  Problem: 08000000

@@ -19,9 +19,11 @@ public class CardPrefab : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
 
     public delegate void CardDelegate(CardPrefab card);
 
-    public event CardDelegate Interact;
+    public static event CardDelegate Interact;
 
     public bool IsInHand = false;
+
+    public bool IsInField = false;
 
     public float PotencyModifier = 1.0f;
 
@@ -65,6 +67,7 @@ public class CardPrefab : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        Debug.Log(this);
         Interact(this);
     }
 

@@ -18,6 +18,8 @@ public class HandManager : MonoBehaviour
 
     private void Awake()
     {
+        CardPrefab.Interact += TransferToField;
+
         // Populate dictionary with empty entries
         for (int i = 0; i < 6; i++)
         {
@@ -53,7 +55,6 @@ public class HandManager : MonoBehaviour
     {
         CardsInHand[card.Ingredient]++;
         card.IsInHand = true;
-        card.Interact += TransferToField;
 
         Cards.Add(card);
         UpdateCardPositions();
@@ -63,7 +64,6 @@ public class HandManager : MonoBehaviour
     {
         CardsInHand[card.Ingredient]--;
         card.IsInHand = false;
-        card.Interact -= TransferToField;
 
         Cards.Remove(card);
         UpdateCardPositions();
@@ -71,7 +71,7 @@ public class HandManager : MonoBehaviour
 
     public void TransferToField(CardPrefab card)
     {
-        if (_PlayField.Cards.Count < 3)
+        if (card.IsInHand && _PlayField.Cards.Count < 3)
         {
             RemoveCard(card);
             _PlayField.AddCardToField(card);
@@ -94,7 +94,7 @@ public class HandManager : MonoBehaviour
             Vector3 delta = new Vector3(-HandWidth / 2.0f + HandWidth * i / (float) Cards.Count, 0, 0);
             card.Move(transform.position + delta);
 
-            Quaternion theta = Camera.main.transform.rotation;
+            Quaternion theta = Camera.main.transform.rotation * Quaternion.Euler(0, 10, 0);
             card.transform.rotation = theta;
         }
     }

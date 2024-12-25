@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1c10407dd4ebf45b5a15f478cebab2, type: 3}
+  m_Name: C10
+  m_EditorClassIdentifier: 
+  Description: "How fast can you make something? I\u2019m a really big rush - I woke
+    up late this morning and my boss wanted to finish all my deliveries by the end
+    of the day, but I\u2019m already behind. Could you help me out?"
+  Solution: 0d000000
+  Problem: 07000000

@@ -27,6 +27,7 @@ namespace WCG
         Strength,
         Growth,
         Frost,
-        Speed
+        Speed,
+        Dexterity
     }
 }

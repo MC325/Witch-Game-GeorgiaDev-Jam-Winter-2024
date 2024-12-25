@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1c10407dd4ebf45b5a15f478cebab2, type: 3}
+  m_Name: C14
+  m_EditorClassIdentifier: 
+  Description: "Hi, um. I accidentally stole something - I didn\u2019t mean to! -
+    and I need some way to put it back without people seeing before they realize
+    it\u2019s gone\u2026"
+  Solution: 06000000
+  Problem: 010000000a000000

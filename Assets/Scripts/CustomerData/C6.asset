@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7468f060f8e93547a8609e6e69d75c1, type: 3}
-  m_Name: Five Leaf Clover
+  m_Script: {fileID: 11500000, guid: cd1c10407dd4ebf45b5a15f478cebab2, type: 3}
+  m_Name: C6
   m_EditorClassIdentifier: 
-  Ingredient: 5
-  Cost: 1
-  Potency: 1
-  PotionColor: {r: 0.21960786, g: 0.6784314, b: 0.43529415, a: 0}
+  Description: "I\u2019m a farmer, and my harvest isn\u2019t going so well this season\u2026Do
+    you have something that could help?"
+  Solution: 0b000000
+  Problem: 020000000c00000004000000
